@@ -1,48 +1,48 @@
 # 👁️ TextExtract Studio
 
-TextExtract Studio is a premium, high-performance web application designed to transform visual data into editable digital text. Built with a focus on precision and user experience, it leverages advanced OCR (Optical Recognition) technology to provide a seamless vision-processing environment.
+TextExtract Studio is a premium, high-performance vision-processing environment designed to transform visual data into refined, editable digital text. Built with state-of-the-art web technologies, it offers a seamless bridge between physical documents and digital workflows.
 
-![TextExtract Studio](https://raw.githubusercontent.com/lucide-react/lucide/main/icons/eye.svg)
+![TextExtract Studio Hero](./assets/hero.png)
 
-## ✨ Key Features
+## ✨ Premium Features
 
-- **🚀 Instant OCR Processing**: Powered by Tesseract.js for high-accuracy text extraction directly in the browser.
-- **📸 Multi-Source Input**: 
-    - **Drag & Drop**: Effortlessly upload images from your device.
-    - **Webcam Capture**: Capture live images for immediate processing.
-- **✂️ Advanced Image Cropping**: Refine your images before processing to ensure maximum OCR precision using `react-easy-crop`.
-- **🔐 Secure Authentication**: Integrated with Clerk for robust user management and secure access.
-- **📊 Real-time Progress Tracking**: Visual feedback during the OCR process with a sleek progress bar.
-- **🎨 Premium UI/UX**:
-    - Built with **React** and **TypeScript**.
-    - Styled with **Tailwind CSS** and **Radix UI** for a modern, accessible interface.
-    - Smooth animations powered by **Framer Motion**.
-    - Responsive design for all devices.
+- **🚀 AI-Powered OCR**: Leverages the Tesseract.js engine for high-precision text extraction directly in your browser.
+- **📸 Versatile Input Methods**: 
+    - **Intelligent Drag & Drop**: Effortless file uploads with real-time previews.
+    - **Integrated Live Webcam**: Capture and process images on the fly with native camera integration.
+- **✂️ Professional Image Refinement**: Built-in cropping and scaling tools to isolate specific text regions, maximizing OCR accuracy.
+- **📊 Real-time Processing Engine**: Watch the extraction happen with a beautiful, high-fidelity progress tracking system.
+- **🔐 Enterprise-Grade Auth**: Secured by **Clerk**, providing robust user management and protected workspaces.
+- **🎨 State-of-the-Art UI/UX**:
+    - **Modern Aesthetics**: Sleek dark-mode inspired design with teal and slate accents.
+    - **Liquid Motion**: Ultra-smooth transitions and micro-interactions powered by **Framer Motion**.
+    - **Component Driven**: Built with **Radix UI** primitives for maximum accessibility and reliability.
 
-## 🛠️ Tech Stack
+## 🛠️ The Technology Stack
 
-- **Frontend**: [React](https://reactjs.org/) + [Vite](https://vitejs.dev/)
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **OCR Engine**: [Tesseract.js](https://tesseract.projectnaptha.com/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **UI Components**: [Radix UI](https://www.radix-ui.com/) + [Lucide React](https://lucide.dev/)
-- **Animations**: [Framer Motion](https://www.framer.com/motion/)
-- **Auth**: [Clerk](https://clerk.com/)
-- **Image Handling**: [react-dropzone](https://react-dropzone.js.org/), [react-easy-crop](https://github.com/valentinhuber/react-easy-crop), [react-webcam](https://github.com/mozmorris/react-webcam)
+| Layer | Technology |
+| :--- | :--- |
+| **Framework** | [React 18](https://reactjs.org/) + [Vite](https://vitejs.dev/) |
+| **Language** | [TypeScript](https://www.typescriptlang.org/) |
+| **OCR Engine** | [Tesseract.js](https://tesseract.projectnaptha.com/) |
+| **Styling** | [Tailwind CSS](https://tailwindcss.com/) |
+| **Animations** | [Framer Motion](https://www.framer.com/motion/) |
+| **Auth** | [Clerk](https://clerk.com/) |
+| **UI Core** | [Radix UI](https://www.radix-ui.com/) + [Lucide Icons](https://lucide.dev/) |
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Node.js (v18 or higher)
-- npm or yarn
+- Node.js (v18.0.0+)
+- npm / yarn / pnpm
 
 ### Installation
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/ocr-project.git
-   cd ocr-project
+   git clone https://github.com/HemantaBhattarai5i/TextExtract.git
+   cd TextExtract
    ```
 
 2. **Install dependencies**:
@@ -50,39 +50,34 @@ TextExtract Studio is a premium, high-performance web application designed to tr
    npm install
    ```
 
-3. **Set up Environment Variables**:
-   Create a `.env` file in the root directory and add your Clerk credentials:
+3. **Configure Environment**:
+   Create a `.env` file in the root directory:
    ```env
-   VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+   VITE_CLERK_PUBLISHABLE_KEY=pk_test_...
+   VITE_CLERK_SECRET_KEY=sk_test_...
    ```
 
-4. **Run the development server**:
+4. **Launch Developer Studio**:
    ```bash
    npm run dev
    ```
 
-5. **Build for production**:
-   ```bash
-   npm run build
-   ```
+## 📖 How it Works
 
-## 📖 Usage
-
-1. **Sign In**: Create an account or sign in using the Clerk authentication portal.
-2. **Upload/Capture**: Choose an image from your computer or use your webcam to take a picture.
-3. **Crop**: (Optional) Use the cropping tool to select the specific area of the image containing the text you want to extract.
-4. **Process**: Click the process button and watch the progress bar as TextExtract Studio analyzes the image.
-5. **Copy/Edit**: Once finished, your extracted text will be available for copying or further editing.
+1. **Authentication**: Sign in to unlock your personal workspace.
+2. **Visual Input**: Upload an image or use the 'Live Capture' mode via your webcam.
+3. **Refine**: Use the cropping tool to focus the AI on specific text blocks for 100% precision.
+4. **Extract**: Hit 'Process' and watch the studio convert your image into selectable text.
+5. **Export**: Copy your refined text for use in any other application.
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-**Created & Owned by Hemanta Bhattarai**  
-
+**Created & Owned by Hemanta Bhattarai**
